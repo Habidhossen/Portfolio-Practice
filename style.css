@@ -10,14 +10,28 @@ section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
+.middle-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
+.half-width img {
+  width: 100%;
+}
 h1 {
   font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  color: dimgray;
 }
 h1 span {
   color: cornflowerblue;
