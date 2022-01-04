@@ -4,7 +4,7 @@ body {
 }
 section {
   height: 500px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 .top-section {
   background-image: url(images/top-banner.png);
@@ -14,6 +14,11 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.bottom-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .half-width {
   width: 40%;
@@ -43,4 +48,25 @@ h1 span {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+.bottom-section div {
+  height: 80%;
+  box-shadow: 10px 7px 40px lightgray;
+  border-radius: 5px;
+}
+.bottom-section h3 {
+  color: cornflowerblue;
+}
+#full-stack {
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, rgb(255, 135, 87), rgb(245, 83, 54));
+  border-image-slice: 1;
+}
+#junior-developer {
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, rgb(126, 126, 243), rgb(21, 36, 248));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
